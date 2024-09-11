@@ -1,0 +1,9 @@
+<?php
+$filename = "i'm Bryan Toralde";
+
+if (file_exists($filename)) {
+    echo "The file '$filename' already exists.\n";
+} else {
+    echo "Hi!'$filename' from BSIT-3H\n";
+}
+?>
